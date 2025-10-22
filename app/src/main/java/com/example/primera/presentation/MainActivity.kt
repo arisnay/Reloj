@@ -29,6 +29,9 @@ import androidx.wear.tooling.preview.devices.WearDevices
 import com.example.primera.R
 import com.example.primera.presentation.theme.PrimeraTheme
 
+import okhttp3.OkHttpClient
+import okhttp3.Reques
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         installSplashScreen()
